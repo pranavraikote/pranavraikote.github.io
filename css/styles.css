@@ -602,11 +602,14 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  
 }
 
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .no-gutters > .col,
 .no-gutters > [class*=col-] {
@@ -4325,6 +4328,10 @@ input[type=button].btn-block {
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
+}
+.card-deck {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .card {
